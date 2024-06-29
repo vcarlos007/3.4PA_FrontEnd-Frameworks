@@ -1,0 +1,14 @@
+<div>
+  <h1>Angular Message Display</h1>
+  <h2> Author: Visente Carlos</h2>
+  
+  <div>
+    <label for="messageInput">Message to Display:</label>
+    <input id="messageInput" [(ngModel)]="message" type="text">
+  </div>
+  
+  <h3>
+  </h3>
+  <button (click)="displayMessage()">Display Message</button>
+  <h2>{{ displayedMessage }}</h2>
+</div>
